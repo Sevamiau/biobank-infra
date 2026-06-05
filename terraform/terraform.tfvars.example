@@ -1,0 +1,7 @@
+# Copy this file to terraform.tfvars and fill in your values.
+# terraform.tfvars is gitignored — never commit it (it contains your IP).
+
+aws_region    = "us-east-1"
+instance_type = "t3.micro"
+key_pair_name = "my-key"        # name of the key pair in your AWS account
+my_ip         = "0.0.0.0/32"   # replace with your real IP (https://checkip.amazonaws.com)

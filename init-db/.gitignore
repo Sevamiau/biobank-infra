@@ -1,0 +1,4 @@
+# Full data dumps contain patient/user data — never commit them.
+# Only schema files (000_schema.sql) and safe seeds (zzz_seed_admin.sql) belong here.
+cajassistema.sql
+*.dump.sql
