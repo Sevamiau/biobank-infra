@@ -1,5 +1,6 @@
 # Biobank Infrastructure — Fundación Huésped
 
+[![CI](https://github.com/Sevamiau/biobank-infra/actions/workflows/ci.yml/badge.svg)](https://github.com/Sevamiau/biobank-infra/actions/workflows/ci.yml)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
