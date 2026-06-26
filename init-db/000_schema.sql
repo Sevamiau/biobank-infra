@@ -269,7 +269,8 @@ CREATE TABLE `usuarios` (
   `fecha_creac_us` date DEFAULT NULL,
   `fecha_caduc_us` date DEFAULT NULL,
   `observ_us` text DEFAULT NULL,
-  `permiso` varchar(3) NOT NULL
+  `permiso` varchar(3) NOT NULL,
+  `must_change_password` tinyint(1) NOT NULL DEFAULT 0
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
